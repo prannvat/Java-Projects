@@ -11,11 +11,12 @@ public class Main {
         int previousResult = Result * 2;
         int remainder = previousResult % 2;
         System.out.println(remainder + " is the remainder");
-        boolean isAlien = false;
-        if(isAlien == false)
+        boolean isAlien = true;
+        if(isAlien == false) {
             System.out.println("it is not an alien");
-
-
-
+        }
+        else if (isAlien == true ) {
+            System.out.println("It is an alien");
+        }
     }
 }
